@@ -26,7 +26,7 @@ cmd + f for the search in the local file in which we are currently at.
 cmd + option + left / right ( Back and forth in the app)
 cmd + click on a note to open it on a new pane (side by side use case can be done with this.)
 
-
+For search (use - to negate (don't want this in search )). - can be used with paths too.
 
 ### General stuff
 How to link a heading?
@@ -83,4 +83,5 @@ $$ x+2 = 10$$
 How to include links?
 []\()
 Display Name inside the square brackets and the link in the curly braces.
- 
+
+Well we can try more in [[Random things to try]]

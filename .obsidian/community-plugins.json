@@ -1,4 +1,7 @@
 [
   "image-converter",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-kindle-plugin",
+  "vscode-editor",
+  "execute-code"
 ]
