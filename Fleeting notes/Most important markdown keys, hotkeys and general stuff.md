@@ -3,10 +3,23 @@ Tags : #. (Use them to categorise notes)
 Italics : * *
 Bold : ** ** 
 List : -  (- and a space in front of it)
+Strikeout things:
+~~ before the thing that we want to strikeout.
+~~Cancel
+
+Highlight : Two = before the thing that we want to highlight.
+
+==Highlight this
 
 *Italics*
 **Bold**
 
+Three dashes and enter for making a separation in the text ---
+
+ 
+---
+
+ 
 ### Hotkeys
 Cmd + shift + f for the overall search (Regex works here)
 cmd + f for the search in the local file in which we are currently at.
@@ -21,16 +34,24 @@ Standard [[]]  then inside that include # to reference the heading.
 And if we want to have that content display in our page itself use ! before [[]] 
 We can use ^ symbol to link a particular paragraph too.
 
+\`
+` Use tilde to keep things as it is [Well no links now]`
+
 
 ```
 To put things (code) inside blocks use these 3 times `
 ```
 
+```python
+print('hello world')
+```
 
 Tasks:
 -space[space] task name  
 - [ ] Task 1 done?
+`- [ ] task name`
 
+Easier way is to just use cmd + L
 ![[Pasted image 20260216163121.png]]
 
 Tables:
@@ -43,9 +64,6 @@ Tables:
 | 2   | Balam |
 
 
-Strikeout things:
-~~ before the thing that we want to strikeout.
-~~Cancel
 
 
 Callout Blocks: 
@@ -60,3 +78,9 @@ Latex : 2 dollars before and at the end.
 
 $$ x+2 = 10$$
 
+
+
+How to include links?
+[]\()
+Display Name inside the square brackets and the link in the curly braces.
+ 
