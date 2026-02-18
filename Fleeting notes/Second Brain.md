@@ -16,7 +16,7 @@ Progressive summarisation.
 
 #### Express  
 Exactly what to do , how to do it.
-Can be expressed to others or to ourselves.
+Can be expressed to others or to ourselves. 
 
 
 
@@ -59,3 +59,5 @@ Highlight as usual -> Bold the imp things -> Finally Highlight the most importan
 
 
 Use NotebookLM for summarising papers and doing a study guide.
+Do a Map of Concept (A single page acts as an index to everything else)
+Can be done with whole AI ML , we can have math, ML , DL , RL , CV there
