@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/Mind Maps for books.md",
+                "file": "Store_things/Passwords.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mind Maps for books"
+              "title": "Passwords"
             }
           }
         ]
@@ -159,6 +159,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "vscode-editor:Create Code File": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -171,11 +172,14 @@
   },
   "active": "a59eccb7eceeed7b",
   "lastOpenFiles": [
+    "Fleeting notes/attachments/Pasted image 20260216163121.png",
+    "Fleeting notes/attachments/Pasted image 20260215023227.png",
+    "Fleeting notes/Productive system Ali Abdall.md",
+    "Fleeting notes/Second Brain.md",
+    "Templates/Mind Maps for books.md",
     "Fleeting notes/Most important markdown keys, hotkeys and general stuff.md",
     "Templates/Our Zettelkasten.md",
     "Fleeting notes/What are fleeting notes.md",
-    "Templates/Mind Maps for books.md",
-    "Fleeting notes/attachments/Pasted image 20260215023227.png",
     "Fleeting notes/attachments",
     "Fleeting notes",
     "Yeah sync complete.md",
