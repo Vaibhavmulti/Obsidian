@@ -47,3 +47,5 @@ Inactive items from the previous 3 categories.
 
  Progressive summarisation
  Highlighting on steroids (Highlight the most relevant information so that by just reading that we can make sense of the entire document)
+
+Use NotebookLM for summarising papers and doing a study guide.
