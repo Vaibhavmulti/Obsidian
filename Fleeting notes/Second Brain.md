@@ -1,7 +1,7 @@
 #productivity/secondbrain
 
 
-CODE
+==CODE
 
 #### Capture 
 - Brain is for having ideas not for storing them so capture them as soon as you see them. (Use calendar (birthdays, events, block time for exercise / reading ), to-do list , note taking app). What to capture? Ideas, Highlights, Quotes.
@@ -19,7 +19,8 @@ Progressive summarisation.
 
 
 
-P                           A                               R                           A
+==P                           A                               R                           A
+
 <-  Most Actionable ---------------- Least Actionable - >
 Organise information.
 
@@ -38,6 +39,11 @@ Organise information.
 
 
 ### Archives
-Inactive items from the previous 3 categories.
+Inactive items from the previous 3 categories. 
 
- 
+
+
+
+
+ Progressive summarisation
+ Highlighting on steroids (Highlight the most relevant information so that by just reading that we can make sense of the entire document)
