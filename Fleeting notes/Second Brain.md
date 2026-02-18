@@ -15,3 +15,29 @@ The stuff you collected NOT into folders but organise them by actionability (Whe
 Progressive summarisation. 
 
 #### Express  
+
+
+
+
+P                           A                               R                           A
+<-  Most Actionable ---------------- Least Actionable - >
+Organise information.
+
+
+### Projects
+- A goal you are working towards (Writing a blog, Planning a vacation, )
+- Have a deadline
+
+### Areas
+- Have roles and responsibilities. (Health, Finance, Relationships)
+- Maintain overtime, 
+
+### Resources
+- Any topic of ongoing interest. (Interesting subjects, quotes from books, places to visit)
+- Inspiration for future projects.
+
+
+### Archives
+Inactive items from the previous 3 categories.
+
+ 
