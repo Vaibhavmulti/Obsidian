@@ -15,6 +15,8 @@ The stuff you collected NOT into folders but organise them by actionability (Whe
 Progressive summarisation. 
 
 #### Express  
+Exactly what to do , how to do it.
+Can be expressed to others or to ourselves.
 
 
 
@@ -47,5 +49,13 @@ Inactive items from the previous 3 categories.
 
  Progressive summarisation
  Highlighting on steroids (Highlight the most relevant information so that by just reading that we can make sense of the entire document)
+
+Process?
+Highlight as usual -> Bold the imp things -> Finally Highlight the most important bolds such that we get the entire picture if we just look at these highlights. 
+
+
+
+
+
 
 Use NotebookLM for summarising papers and doing a study guide.
