@@ -11,3 +11,6 @@ Write the goals down! and make recurring reviews (monthly/quarterly..)
 
 
 Mind optimises for safety not for growth.
+
+
+37 mins ST.
