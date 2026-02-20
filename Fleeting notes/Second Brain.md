@@ -33,7 +33,7 @@ Organise information.
 
 ### Areas
 - Have roles and responsibilities. (Health, Finance, Relationships)
-- Maintain overtime, 
+- Maintain overtime, no deadlines.
 
 ### Resources
 - Any topic of ongoing interest. (Interesting subjects, quotes from books, places to visit)
