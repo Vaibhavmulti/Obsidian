@@ -81,12 +81,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting notes/Second Brain.md",
+                "file": "Fleeting notes/Better your life.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Second Brain"
+              "title": "Better your life"
             }
           }
         ],
@@ -163,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting notes/Second Brain.md",
+                "file": "Fleeting notes/Better your life.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +173,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Second Brain"
+              "title": "Backlinks for Better your life"
             }
           },
           {
@@ -224,13 +224,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fleeting notes/Second Brain.md",
+                "file": "Fleeting notes/Better your life.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Second Brain"
+              "title": "Outline of Better your life"
             }
           },
           {
@@ -277,12 +277,12 @@
   },
   "active": "c262ec8772245c55",
   "lastOpenFiles": [
+    "Fleeting notes/Second Brain.md",
     "Fleeting notes/Better your life.md",
     "Fleeting notes/attachments/image-3.png",
     "Fleeting notes/Journaling.md",
     "Fleeting notes/Productive system Ali Abdall.md",
     "Fleeting notes/attachments/image-2.png",
-    "Fleeting notes/Second Brain.md",
     "Fleeting notes/Reading tips.md",
     "Fleeting notes/Random things to try.md",
     "Fleeting notes/Most important markdown keys, hotkeys and general stuff.md",
