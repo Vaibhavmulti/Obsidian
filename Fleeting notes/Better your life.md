@@ -1,6 +1,6 @@
 Figuring out where you are in life
 
-![[image-4.png|451x287]]
+![[image-4.png]]
 Rate yourself out of 10 out of each of these.
 
 I am tempted to rate myself based on my routine that I used to follow but that is not the case anymore, so either we can hope that we will follow that and rate accordingly or we can mention why we should follow it.
