@@ -55,7 +55,7 @@ Easier way is to just use cmd + L
 ![[Pasted image 20260216163121.png]]
 
 Tables:
-![[image.png|700x347]]
+![[Fleeting notes/attachments/image.png|700x347]]
 
 
 | Rno | Name  |
