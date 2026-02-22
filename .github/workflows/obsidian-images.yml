@@ -1,11 +1,15 @@
+name: Fix Obsidian image embeds
 
-on: [push]
+on:
+  push:
 
 jobs:
   convert:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repo
+        uses: actions/checkout@v4
 
       - name: Convert Obsidian image embeds
         run: |
@@ -15,10 +19,9 @@ jobs:
             sed -i -E 's/!\[\[([^|\]]+)\]\]/<img src="\1">/g' "$file"
           done
 
-      - name: Commit changes
+      - name: Commit and push changes
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git commit -am "Convert Obsidian image embeds" || echo "No changes"
           git push
-
