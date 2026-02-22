@@ -15,26 +15,25 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          ref: ${{ github.ref }}
 
-      - name: Convert Obsidian image embeds (folder-aware)
+      - name: Normalize line endings
+        run: |
+          find . -name "*.md" -exec sed -i 's/\r$//' {} +
+
+      - name: Convert Obsidian image embeds
         run: |
           find . -name "*.md" -print0 | while IFS= read -r -d '' file; do
-            DIR=$(dirname "$file")
-
-            # Only process notes that have a sibling attachments folder
-            if [ -d "$DIR/attachments" ]; then
-              sed -i -E 's/!\[\[([^|\]]+)\|([0-9]+)x([0-9]+)\]\]/<img src="attachments\/\1" width="\2" height="\3">/g' "$file"
-              sed -i -E 's/!\[\[([^|\]]+)\|([0-9]+)\]\]/<img src="attachments\/\1" width="\2">/g' "$file"
-              sed -i -E 's/!\[\[([^|\]]+)\]\]/<img src="attachments\/\1">/g' "$file"
-            fi
+            sed -i -E 's/!\[\[([^|\]]+)\]\]/<img src="attachments\/\1">/g' "$file"
           done
+
+      - name: Show changes (debug)
+        run: |
+          git diff || true
 
       - name: Commit and push changes
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-
           git add .
           git commit -m "Convert Obsidian image embeds" || echo "No changes"
           git push
