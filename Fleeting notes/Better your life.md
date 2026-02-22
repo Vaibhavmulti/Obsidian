@@ -1,8 +1,9 @@
 Figuring out where you are in life
 
 
-
 ![[image-2.png]]
+
+
 
 
 
