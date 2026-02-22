@@ -1,7 +1,7 @@
 Figuring out where you are in life
 
 
-![[image-6.png]]
+![[image-7.png]]
 
 ![[image-4.png]]
 Rate yourself out of 10 out of each of these.
