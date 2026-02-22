@@ -1,6 +1,6 @@
 
 Use the index page of the book to write down what interesting thing is there at that page.
-![[image-1.png]]
+<img src="attachments/image-1.png">
 
 Use the last page of the book physical to keep the most important lessons , use a plain digital page like we did for great mental models. I think that was great. Make a mind map for the book simultaneously.
 
