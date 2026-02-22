@@ -1,0 +1,24 @@
+
+on: [push]
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Convert Obsidian image embeds
+        run: |
+          find . -name "*.md" -print0 | while IFS= read -r -d '' file; do
+            sed -i -E 's/!\[\[([^|\]]+)\|([0-9]+)x([0-9]+)\]\]/<img src="\1" width="\2" height="\3">/g' "$file"
+            sed -i -E 's/!\[\[([^|\]]+)\|([0-9]+)\]\]/<img src="\1" width="\2">/g' "$file"
+            sed -i -E 's/!\[\[([^|\]]+)\]\]/<img src="\1">/g' "$file"
+          done
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git commit -am "Convert Obsidian image embeds" || echo "No changes"
+          git push
+
