@@ -3,6 +3,9 @@ name: Fix Obsidian image embeds
 on:
   push:
 
+permissions:
+  contents: write   # 🔑 REQUIRED to push changes
+
 jobs:
   convert:
     runs-on: ubuntu-latest
@@ -10,6 +13,9 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # important for pushing
+          ref: ${{ github.ref }}
 
       - name: Convert Obsidian image embeds
         run: |
@@ -23,5 +29,9 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git commit -am "Convert Obsidian image embeds" || echo "No changes"
+
+          git status
+          git add .
+
+          git commit -m "Convert Obsidian image embeds" || echo "No changes to commit"
           git push
