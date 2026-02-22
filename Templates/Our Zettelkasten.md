@@ -1,4 +1,4 @@
-(Tags here)
+(Tags here: For better search and easy lookup later )
 # Content Flow
 Extremely selective permanent notes, no copying pasting, express in your words. Short atomic notes 
 (  Fleeting(Ideas) , References(Quoting) and Literature notes(Own words) )
