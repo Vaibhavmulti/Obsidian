@@ -4,7 +4,7 @@ on:
   push:
 
 permissions:
-  contents: write   # 🔑 REQUIRED to push changes
+  contents: write
 
 jobs:
   convert:
@@ -14,15 +14,20 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0   # important for pushing
+          fetch-depth: 0
           ref: ${{ github.ref }}
 
-      - name: Convert Obsidian image embeds
+      - name: Convert Obsidian image embeds (folder-aware)
         run: |
           find . -name "*.md" -print0 | while IFS= read -r -d '' file; do
-            sed -i -E 's/!\[\[([^|\]]+)\|([0-9]+)x([0-9]+)\]\]/<img src="\1" width="\2" height="\3">/g' "$file"
-            sed -i -E 's/!\[\[([^|\]]+)\|([0-9]+)\]\]/<img src="\1" width="\2">/g' "$file"
-            sed -i -E 's/!\[\[([^|\]]+)\]\]/<img src="\1">/g' "$file"
+            DIR=$(dirname "$file")
+
+            # Only process notes that have a sibling attachments folder
+            if [ -d "$DIR/attachments" ]; then
+              sed -i -E 's/!\[\[([^|\]]+)\|([0-9]+)x([0-9]+)\]\]/<img src="attachments\/\1" width="\2" height="\3">/g' "$file"
+              sed -i -E 's/!\[\[([^|\]]+)\|([0-9]+)\]\]/<img src="attachments\/\1" width="\2">/g' "$file"
+              sed -i -E 's/!\[\[([^|\]]+)\]\]/<img src="attachments\/\1">/g' "$file"
+            fi
           done
 
       - name: Commit and push changes
@@ -30,8 +35,6 @@ jobs:
           git config user.name "github-actions"
           git config user.email "actions@github.com"
 
-          git status
           git add .
-
-          git commit -m "Convert Obsidian image embeds" || echo "No changes to commit"
+          git commit -m "Convert Obsidian image embeds" || echo "No changes"
           git push
