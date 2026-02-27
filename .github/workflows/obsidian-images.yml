@@ -1,60 +1,35 @@
-name: Fix Obsidian image embeds
+- name: Convert Obsidian image embeds (Python)
+  run: |
+    python3 << 'EOF'
+    import re
+    from pathlib import Path
 
-on:
-  push:
+    for md in Path(".").rglob("*.md"):
+        text = md.read_text(encoding="utf-8")
 
-permissions:
-  contents: write
+        def repl(match):
+            raw_name = match.group("name")
+            size = match.group("size")
 
-jobs:
-  convert:
-    runs-on: ubuntu-latest
+            # ✅ Always extract only the filename
+            filename = Path(raw_name).name
 
-    steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+            base = f'<img src="attachments/{filename}"'
 
-      - name: Convert Obsidian image embeds (Python)
-        run: |
-          python3 << 'EOF'
-          import re
-          from pathlib import Path
+            if size:
+                if "x" in size:
+                    w, h = size.split("x")
+                    return f'{base} width="{w}" height="{h}">'
+                else:
+                    return f'{base} width="{size}">'
+            return f"{base}>"
 
-          for md in Path(".").rglob("*.md"):
-              text = md.read_text(encoding="utf-8")
+        new = re.sub(
+            r'!\[\[(?P<name>[^|\]]+)(?:\|(?P<size>[0-9x]+))?\]\]',
+            repl,
+            text
+        )
 
-              def repl(match):
-                  name = match.group("name")
-                  size = match.group("size")
-                  base = f'<img src="attachments/{name}"'
-
-                  if size:
-                      if "x" in size:
-                          w, h = size.split("x")
-                          return f'{base} width="{w}" height="{h}">'
-                      else:
-                          return f'{base} width="{size}">'
-                  return f"{base}>"
-
-              new = re.sub(
-                  r'!\[\[(?P<name>[^|\]]+)(?:\|(?P<size>[0-9x]+))?\]\]',
-                  repl,
-                  text
-              )
-
-              if new != text:
-                  md.write_text(new, encoding="utf-8")
-          EOF
-
-      - name: Show changes
-        run: git diff || true
-
-      - name: Commit and push changes
-        run: |
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
-          git add .
-          git commit -m "Convert Obsidian image embeds" || echo "No changes"
-          git push
+        if new != text:
+            md.write_text(new, encoding="utf-8")
+    EOF
