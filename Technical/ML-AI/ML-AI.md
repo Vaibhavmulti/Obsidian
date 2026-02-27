@@ -2,7 +2,7 @@
 
 We can have an index / Map of concept
 MOC example 
-![[Technical/ML-AI/attachments/image.png|442x469]]
+<img src="attachments/Technical/ML-AI/attachments/image.png" width="442" height="469">
 
 |                                      |
 | ------------------------------------ |
