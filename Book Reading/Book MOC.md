@@ -1,2 +1,2 @@
-![[image-1.png]]
+<img src="attachments/image-1.png">
 
