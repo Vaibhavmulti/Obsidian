@@ -55,7 +55,7 @@ Easier way is to just use cmd + L
 <img src="attachments/Pasted image 20260216163121.png">
 
 Tables
-![[image-3.png]]
+<img src="attachments/image-3.png">
 
 
 | Rno | Name  |
