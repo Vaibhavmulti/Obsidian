@@ -1,1 +1,1 @@
-![[Book Reading/attachments/image.png]]
+<img src="attachments/Book Reading/attachments/image.png">

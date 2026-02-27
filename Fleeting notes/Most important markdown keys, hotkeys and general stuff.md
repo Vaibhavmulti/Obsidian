@@ -55,7 +55,7 @@ Easier way is to just use cmd + L
 <img src="attachments/Pasted image 20260216163121.png">
 
 Tables:
-![[Fleeting notes/attachments/image.png|700x347]]
+<img src="attachments/Fleeting notes/attachments/image.png" width="700" height="347">
 
 
 | Rno | Name  |
