@@ -11,14 +11,14 @@
             "id": "512793272c42556a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Fleeting notes/Productive system Ali Abdall.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Productive system Ali Abdall"
+              "icon": "diff",
+              "title": "Diff: workspace.json  (Working Tree)"
             }
           }
         ]
@@ -204,8 +204,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "987171813340fc89",
+  "active": "512793272c42556a",
   "lastOpenFiles": [
+    "Store_things/Store this openly.md",
+    "Fleeting notes/Productive system Ali Abdall.md",
     "Fleeting notes/attachments/Pasted image 20260216163121.png",
     "Fleeting notes/attachments/Pasted image 20260215023227.png",
     "Fleeting notes/attachments/image-4.png",
@@ -213,7 +215,6 @@
     "Fleeting notes/attachments/image-2.png",
     "Fleeting notes/attachments/image-1.png",
     "Fleeting notes/attachments/image.png",
-    "Fleeting notes/Productive system Ali Abdall.md",
     "Technical/ML-AI/ML-AI.md",
     "Book Reading/Book MOC.md",
     "Book Reading/attachments/image-1.png",
