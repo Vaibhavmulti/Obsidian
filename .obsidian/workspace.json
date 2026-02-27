@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -207,13 +206,19 @@
   },
   "active": "512793272c42556a",
   "lastOpenFiles": [
+    "Fleeting notes/attachments/image-3.png",
+    "Fleeting notes/attachments/image.png",
+    "Fleeting notes/attachments/image-1.png",
+    "Fleeting notes/attachments/image-2.png",
+    "Fleeting notes/attachments/image-4.png",
+    "Fleeting notes/attachments/Pasted image 20260215023227.png",
+    "Fleeting notes/attachments/Pasted image 20260216163121.png",
     "Fleeting notes/Most important markdown keys, hotkeys and general stuff.md",
     "conflict-files-obsidian-git.md",
     "Templates/Our Zettelkasten.md",
     "Fleeting notes/Most important markdown keys, hotkeys and general stuff (conflict 2026-02-27-11-56-20).md",
     "Technical/ML-AI/ML-AI.md",
     "Fleeting notes/Better your life.md",
-    "Fleeting notes/attachments/image-2.png",
     "Fleeting notes/Journaling.md",
     "Store_things/attachments/image-1.png",
     "Store_things/attachments/image.png",
@@ -223,11 +228,6 @@
     "Templates/Paper reading.md",
     "Technical/ML-AI/attachments/image.png",
     "Technical/ML-AI/attachments",
-    "Fleeting notes/attachments/image-5.png",
-    "Fleeting notes/attachments/image-6.png",
-    "Fleeting notes/attachments/image-4.png",
-    "Fleeting notes/attachments/image-1.png",
-    "Fleeting notes/attachments/image-3.png",
     "Technical/ML-AI/Backpropogation.md",
     "Fleeting notes/Code example.md",
     "Fleeting notes/charts_in_colaboratory.py",
@@ -252,7 +252,6 @@
     "Untitled.canvas",
     "Technical/WebDev",
     "Can i even create offline.md",
-    "Autosync check.md",
-    "Yeah sync complete.md"
+    "Autosync check.md"
   ]
 }
