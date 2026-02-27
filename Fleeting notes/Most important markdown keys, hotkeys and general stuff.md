@@ -52,7 +52,7 @@ Tasks:
 `- [ ] task name`
 
 Easier way is to just use cmd + L
-![[Pasted image 20260216163121.png]]
+<img src="attachments/Pasted image 20260216163121.png">
 
 Tables:
 ![[Fleeting notes/attachments/image.png|700x347]]
