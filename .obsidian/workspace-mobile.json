@@ -159,6 +159,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:New drawing": false,
       "vscode-editor:Create Code File": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -172,13 +173,15 @@
   },
   "active": "a59eccb7eceeed7b",
   "lastOpenFiles": [
+    "Fleeting notes/Most important markdown keys, hotkeys and general stuff.md",
+    "Fleeting notes/Most important markdown keys, hotkeys and general stuff (conflict 2026-02-27-11-56-20).md",
+    "Fleeting notes/Better your life.md",
     "Store_things/Passwords.md",
     "Fleeting notes/attachments/Pasted image 20260216163121.png",
     "Fleeting notes/attachments/Pasted image 20260215023227.png",
     "Fleeting notes/Productive system Ali Abdall.md",
     "Fleeting notes/Second Brain.md",
     "Templates/Mind Maps for books.md",
-    "Fleeting notes/Most important markdown keys, hotkeys and general stuff.md",
     "Templates/Our Zettelkasten.md",
     "Fleeting notes/What are fleeting notes.md",
     "Fleeting notes/attachments",

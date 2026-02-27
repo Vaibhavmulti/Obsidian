@@ -4,5 +4,8 @@
   "obsidian-kindle-plugin",
   "vscode-editor",
   "execute-code",
-  "cmenu-plugin"
+  "cmenu-plugin",
+  "dataview",
+  "obsidian-excalidraw-plugin",
+  "obsidian-latex-suite"
 ]

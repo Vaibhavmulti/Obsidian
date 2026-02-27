@@ -1,4 +1,6 @@
+Title
 (Tags here: For better search and easy lookup later )
+Links (Optional)
 # Content Flow
 Extremely selective permanent notes, no copying pasting, express in your words. 
 Short atomic notes (Word count is a good metric to keep in mind to keep the note short)
