@@ -1,6 +1,7 @@
 
 
-<img src="attachments/Second Brain#Capture">
+![Capture](Second%20Brain.md#Capture)
+
 
 Apps recommended: Email, to do list, Google Drive for online backups, Apple notes for note taking. 
 

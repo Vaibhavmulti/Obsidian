@@ -2,9 +2,6 @@ name: Fix Obsidian image embeds
 
 on:
   push:
-    paths:
-      - "**.md"
-      - ".github/workflows/obsidian-images.yml"
 
 permissions:
   contents: write
@@ -19,29 +16,29 @@ jobs:
         with:
           fetch-depth: 0
 
-      # ------------------------------------------------------------
-      # 1️⃣ Convert Obsidian ![[image.png|300x400]] embeds
-      # ------------------------------------------------------------
-      - name: Convert Obsidian image embeds
+      - name: Convert Obsidian image embeds only
         run: |
           python3 << 'EOF'
           import re
           from pathlib import Path
 
-          embed_pattern = re.compile(
-              r'!\[\[(?P<name>[^|\]]+)(?:\|(?P<size>[0-9x]+))?\]\]'
+          IMAGE_EXTS = (
+              "png", "jpg", "jpeg", "gif", "webp",
+              "svg", "bmp", "tiff"
+          )
+
+          pattern = re.compile(
+              r'!\[\[(?P<name>[^|\]#]+?\.(?:' + "|".join(IMAGE_EXTS) + r'))'
+              r'(?:\|(?P<size>[0-9x]+))?\]\]'
           )
 
           for md in Path(".").rglob("*.md"):
               text = md.read_text(encoding="utf-8")
 
               def repl(match):
-                  raw_name = match.group("name")
+                  name = match.group("name")
                   size = match.group("size")
-
-                  # Always keep only filename
-                  filename = Path(raw_name).name
-                  base = f'<img src="attachments/{filename}"'
+                  base = f'<img src="attachments/{name}"'
 
                   if size:
                       if "x" in size:
@@ -51,52 +48,17 @@ jobs:
                           return f'{base} width="{size}">'
                   return f"{base}>"
 
-              new = embed_pattern.sub(repl, text)
+              new = pattern.sub(repl, text)
 
               if new != text:
                   md.write_text(new, encoding="utf-8")
+
           EOF
 
-      # ------------------------------------------------------------
-      # 2️⃣ Normalize ANY existing broken <img src="..."> paths
-      # ------------------------------------------------------------
-      - name: Normalize image src paths
-        run: |
-          python3 << 'EOF'
-          import re
-          from pathlib import Path
-
-          img_src_pattern = re.compile(
-              r'<img\s+([^>]*?)src="([^"]*attachments/([^"/]+))"([^>]*)>'
-          )
-
-          for md in Path(".").rglob("*.md"):
-              text = md.read_text(encoding="utf-8")
-
-              def repl(match):
-                  before = match.group(1)
-                  filename = match.group(3)
-                  after = match.group(4)
-
-                  return f'<img {before}src="attachments/{filename}"{after}>'
-
-              new = img_src_pattern.sub(repl, text)
-
-              if new != text:
-                  md.write_text(new, encoding="utf-8")
-          EOF
-
-      # ------------------------------------------------------------
-      # 3️⃣ Commit only if changes exist (prevents infinite loop)
-      # ------------------------------------------------------------
       - name: Commit and push changes
         run: |
-          if [[ -n "$(git status --porcelain)" ]]; then
-            git config user.name "github-actions"
-            git config user.email "actions@github.com"
-            git add .
-            git commit -m "Auto-fix Obsidian image embeds"
-            git push
-          else
-            echo "No changes to commit"
-          fi
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add .
+          git commit -m "Convert Obsidian image embeds only" || echo "No changes"
+          git push
