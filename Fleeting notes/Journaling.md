@@ -23,5 +23,44 @@ Write about goals and plans. What do you actually want?
 (THINK DAY)
 If you are planning to go to a new location take some prompts with you and have a mini uninterrupted retreat. 2-3 hrs / half a day or so deeply answer questions, you'll have lots of insights. 
 
+# GPT
+3-3-1
+3 gratitudes. Be very specific.
+3 self awareness prompts.
+One Directional Intention (For Tomorrow). Makes it actionable.
+
+Weekly 
+Weekly Deep Reflection (30–45 mins on Sunday)
+Answer these:
+1. What worked this week?
+2. What didn’t?
+3. Where did I waste time?
+4. What did I learn about myself?
+5. What kind of person did I act like this week?
+6. "What are three things I would do even if I knew I would never get paid or recognized for them?"
+7. "What does 'success' look like to me right now, and how much of that definition is actually mine?"
+8. "If I were to teach a class on something _not_ related to AI or CS, what would it be?"
 
 
+
+This is where real self-knowledge develops.
+
+
+Prompts:
+Self awareness
+- When did I feel most alive today?
+- What drained my energy?
+- What is one thing I learned about myself?
+- What did I avoid?
+- What emotion did I feel strongly today?
+- Why did that trigger me?
+- What fear is beneath this?
+- What distracted me?  What pattern is repeating?
+- Did I make my wife feel valued today?
+- What did I appreciate about her today?
+
+
+
+# 30 day challenge
+[30 Day journal GPT](30%20Day%20journal%20GPT.md)
+[30 day journal Gemini](30%20day%20journal%20Gemini.md)
