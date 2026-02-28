@@ -23,7 +23,7 @@ Write about goals and plans. What do you actually want?
 (THINK DAY)
 If you are planning to go to a new location take some prompts with you and have a mini uninterrupted retreat. 2-3 hrs / half a day or so deeply answer questions, you'll have lots of insights. 
 
-# GPT
+
 3-3-1
 3 gratitudes. Be very specific.
 3 self awareness prompts.
@@ -40,18 +40,34 @@ Answer these:
 6. "What are three things I would do even if I knew I would never get paid or recognized for them?"
 7. "What does 'success' look like to me right now, and how much of that definition is actually mine?"
 8. "If I were to teach a class on something _not_ related to AI or CS, what would it be?"
+9. Who in my life am I thankful for, and how can I show it?
 
+Notice patterns weekly. Read entries to look for what is emerging.
 
 
 This is where real self-knowledge develops.
 
+Tips for effective writing:
+- Go for depth over breadth: Elaborate on one item if it feels meaningful.
+- View positives as "gifts" to amplify appreciation.
+- Include "subtraction" thinking: Reflect on what your life would be like without certain positives.
+
+
+
 
 Prompts:
+
+Gratitude
+- 3 things I am grateful for and why? Be specific.
+- Describe a small act of kindness I received or gave.
+- What in nature made me feel appreciative today?
+
+
 Self awareness
-- When did I feel most alive today?
+- When did I feel most alive today? What did I do today that felt most like "me"?
 - What drained my energy?
 - What is one thing I learned about myself?
-- What did I avoid?
+- What did I avoid and why?
 - What emotion did I feel strongly today?
 - Why did that trigger me?
 - What fear is beneath this?
