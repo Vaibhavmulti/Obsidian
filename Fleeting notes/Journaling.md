@@ -18,9 +18,14 @@ Write about goals and plans. What do you actually want?
 
 
 [[Ali Abdall]] prompts :
+https://aliabdaal.notion.site/Journalling-Hub-6cdcfe87dc9b45d5a990b78201ed4f7a
 
 
 (THINK DAY)
+https://docs.google.com/document/d/1KEO0EHqYqmWGk44SPyijtVXtgwUA8Ob_tDIt2JWrpeE/edit?tab=t.0#heading=h.pb0b9vtblj8p
+Think day prompts above.
+
+
 If you are planning to go to a new location take some prompts with you and have a mini uninterrupted retreat. 2-3 hrs / half a day or so deeply answer questions, you'll have lots of insights. 
 
 
