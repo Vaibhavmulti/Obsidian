@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting notes/30 day journal Claude.md",
+                "file": "Fleeting notes/Mobility.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "30 day journal Claude"
+              "title": "Mobility"
             }
           },
           {
@@ -249,8 +249,8 @@
   },
   "active": "47ec9262cccdaf27",
   "lastOpenFiles": [
-    "Fleeting notes/Journaling.md",
     "Fleeting notes/30 day journal Claude.md",
+    "Fleeting notes/Journaling.md",
     "Fleeting notes/Mobility.md",
     "Fleeting notes/30 day journal Gemini.md",
     "Fleeting notes/30 Day journal GPT.md",
