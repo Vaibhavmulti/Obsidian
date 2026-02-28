@@ -9,21 +9,24 @@ Have a Bulletproof body.
 So the routine should be such that it fixes all and makes the body bulletproof and as a perfectly healthy human body should be.
 
 
-Diaphragmatic breathing. 1
+90-90 Diaphragmatic breathing. 1 + Claude
 
 **Spine**
 Dead Hang (Shoulder + Spine Decompression). (Passive -> Scapula engaged). 2
-Cat Cow. 1
+Cat Cow. 2
 
 
 **APT**
 Deep Squat Sit (Ankle + Hip Reset). 1
 90/90 Hip Lift (Pelvic Repositioning). 1
 Copenhagen Side Plank (Fix Lateral Asymmetry). 1
+Kneeling Hip flexor stretch. 1
+Glute Bridge. 1
+
 
 
 The Couch Stretch.  1
-Dead bugs. 1
+Dead bugs. 2 + Claude
 
 
 **Knee pain during squat**
@@ -31,13 +34,15 @@ ATG Split Squat. 2
 Tibialis Raises. 2
 
 **Rounded shoulders and forward head**
-Wall slides (Lean against the wall then up down overhead arms). 2
-Chin tuck (Railway one). 2
+Wall slides (Lean against the wall then up down overhead arms). 3
+Chin tuck (Railway one). 3
 Over and back (Towel version). 1
 Cobra pose. 1
+Stand and reach. 1
+Quadruped Thoracic Rotations. 1
 
 
 Spinal stability 
 RDL. 1
-Bird Dog.  2
+Bird Dog.  3
 
