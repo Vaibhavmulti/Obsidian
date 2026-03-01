@@ -59,4 +59,9 @@ Once / Twice a week.
 
 Grok
 
-Morning cleanse ( Raw milk / Water) -> Tone (Rose water) -> Brighten (Aloevera gel + pinch of turmeric/yogurt for 10 mins / leave if light) -> Moisturize (Almond oil) -> Sunscreen(Spf 30 +zinc / DIY Sandalwood paste + aloe vera gel)
+Morning
+cleanse ( Raw milk / Water) -> Tone (Rose water) -> Brighten (Aloevera gel + pinch of turmeric/yogurt for 10 mins / leave if light) -> Moisturize (Almond oil) -> Sunscreen(Spf 30 +zinc / DIY Sandalwood paste + aloe vera gel)
+
+
+Evening
+cleanse -> Exfoliate (2-3 times a week Oats + yogurt , gentle massage 1 min ) -> Brighten mask (Turmeric , besan one 3 times a week ) - > Moisturize(almond oil) 
