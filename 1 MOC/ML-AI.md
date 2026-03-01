@@ -2,7 +2,9 @@
 
 We can have an index / Map of concept
 MOC example 
-<img src="attachments/image.png" width="442" height="469">
+<img src="attachments/image 1.png" width="442" height="469">
+
+
 
 |                                      |
 | ------------------------------------ |

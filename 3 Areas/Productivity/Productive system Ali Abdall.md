@@ -21,6 +21,6 @@ Distill the knowledge from your first brain , then the second brain and lastly (
 
 
 
-[[Better your life]]
+[[Better your life Journaling Prompts]]
 
 

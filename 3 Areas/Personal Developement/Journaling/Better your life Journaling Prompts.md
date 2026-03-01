@@ -147,5 +147,3 @@ If we decide to go full on the side project for financially free thing, we can a
 
 
 
-
-37 mins ST.
