@@ -1,13 +1,17 @@
 
-I want to build a daily routine for mobility and entire posture correction.
-The big aim of this is to :
-Have great Longevity
-Fix asymmetries where ever they are. Include everything so that I can target everything.
-Fix problem like anterior pelvic twist, right knee pain during squat, round shoulders, forward head positions, misalignments and all other issues which I am not aware but they exist silently.
-Fix pain (Hips, back, shoulders, knees, neck, pain during squat)
-Have a Bulletproof body.
-So the routine should be such that it fixes all and makes the body bulletproof and as a perfectly healthy human body should be.
+Final routines.
 
+Warmup before workout.
+https://docs.google.com/document/d/1OeO5LS7rLPUzstuI3y6ZMHM1PYnUAzmw/edit?usp=sharing&ouid=108024709589211145703&rtpof=true&sd=true
+
+
+Rest days total mobility
+https://docs.google.com/document/d/1TwPxSQ_yxyFrPFLuuCqtuA1gjFB-8bFM/edit?usp=sharing&ouid=108024709589211145703&rtpof=true&sd=true
+
+
+
+
+Exercises:
 
 90-90 Diaphragmatic breathing. 1 + Claude
 
@@ -82,14 +86,4 @@ Hold your phone at eye level. Always.
 
 
 Clampshell/Side laying abduction and corrective squats.
-
-
-Where did these links go.
-
-![Warmup](warmup_routine_v2.docx)
-
-
-
-
-![Full day](bulletproof_routine.docx)
 
