@@ -84,9 +84,12 @@ Hold your phone at eye level. Always.
 Clampshell/Side laying abduction and corrective squats.
 
 
+Where did these links go.
 
-![](warmup_routine_v2.docx)
+![Warmup](warmup_routine_v2.docx)
 
 
 
-![](bulletproof_routine.docx)
+
+![Full day](bulletproof_routine.docx)
+
