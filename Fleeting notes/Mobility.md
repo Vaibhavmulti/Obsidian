@@ -49,16 +49,36 @@ Bird Dog.  3
 
 
 90-90 Diaphragmatic breathing
-Quadruped Thoracic Rotations
-Hip Flexor Stretch (With Pelvic Tuck)
+Quadruped Thoracic Rotations, Thoracic spine extension.
+Hip Flexor Stretch (With Pelvic Tuck), Kneeling hip flexor stretch
+Bridges
 Clamshells 3X20
 Side-lying abduction 3x15
 Band walks 2 rounds
 Corrective squat
 
+Chin tucks
+Face pulls / Band pull aparts.
+Dead bugs.
+
+
+Dead hangs
+Cat cow
+Deep Squat 
+90/90 Hip Lift (Pelvic Repositioning).
+Copenhagen Side Plank (Fix Lateral Asymmetry)
+The Couch Stretch.
+ATG Split Squat.
+Tibialis Raises.
+Wall slides.
+Over and back (Towel version)
+Bird dog
 
 
 Every 30 mins: 10 Squats & 10 Chin Tucks (Counters "Sitting Disease")
+Hold your phone at eye level. Always.
 
 
 
+
+Clampshell/Side laying abduction and corrective squats.
