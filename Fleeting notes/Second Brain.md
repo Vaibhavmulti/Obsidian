@@ -32,7 +32,7 @@ Organise information.
 - Have a deadline
 
 ### Areas
-- Have roles and responsibilities. (Health, Finance, Relationships)
+- Have roles and responsibilities. (Health, Finance, Relationships, Growth(Our notes can come here))
 - Maintain overtime, no deadlines.
 
 ### Resources
@@ -55,6 +55,9 @@ Highlight as usual -> Bold the imp things -> Finally Highlight the most importan
 
 
 
+==Have a hidden PARA.==
+Private repo for us and a public one for showing our technical notes.
+Github actions will automatically , push the selected things to the public repo from the private one.
 
 
 
