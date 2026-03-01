@@ -21,7 +21,7 @@ Deep Squat Sit (Ankle + Hip Reset). 1
 90/90 Hip Lift (Pelvic Repositioning). 1
 Copenhagen Side Plank (Fix Lateral Asymmetry). 1
 Kneeling Hip flexor stretch. 1
-Glute Bridge. 1
+Glute Bridge. 1 + Calude
 
 
 
@@ -39,10 +39,26 @@ Chin tuck (Railway one). 3
 Over and back (Towel version). 1
 Cobra pose. 1
 Stand and reach. 1
-Quadruped Thoracic Rotations. 1
+Quadruped Thoracic Rotations. 1. (Thoracic Extension + Rotation) + Calude
 
 
 Spinal stability 
 RDL. 1
 Bird Dog.  3
+
+
+
+90-90 Diaphragmatic breathing
+Quadruped Thoracic Rotations
+Hip Flexor Stretch (With Pelvic Tuck)
+Clamshells 3X20
+Side-lying abduction 3x15
+Band walks 2 rounds
+Corrective squat
+
+
+
+Every 30 mins: 10 Squats & 10 Chin Tucks (Counters "Sitting Disease")
+
+
 

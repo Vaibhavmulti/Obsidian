@@ -1,4 +1,8 @@
 
+Items
+Mild facewash, pure aloe vera gel , pure rose water, light moisturiser , sunscreen. 
+Serum Vit C, Sweet almond oil , natural alternative to retinol.
+
 # GPT
 
 Morning
